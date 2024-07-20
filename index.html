@@ -118,6 +118,11 @@
     </footer>
 </body>
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var video = document.getElementById('background-video');
+        video.play();
+    });
+    
     var slideIndex = 1;
     showDivs(slideIndex);
 
